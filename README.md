@@ -73,17 +73,17 @@ The ETL pipeline ensured the data was clean and analysis-ready.
 - Data was sourced from CSV files containing property records and other hotel-related details.
 
 ### 🔧 Transform
-- ✅ Removed duplicates to ensure unique records for properties.  
-- ✅ Handled missing values in critical columns such as `category` and `city` by using business logic.  
-- ✅ Standardized column names for consistency (e.g., renaming columns to lowercase with underscores).  
-- ✅ Corrected inconsistent city names (e.g., "Banglore" was corrected to "Bangalore").  
-- ✅ Added a calculated column to track the count of properties grouped by city.  
-- ✅ Removed the `day_type` column as it incorrectly classified weekends (Sunday and Saturday were marked as weekends instead of Friday and Saturday).  
-- ✅ Re-created the `day_type` column using a calculated formula to align with industry standards.  
-  - 📆 **Weekday**: Monday to Thursday.  
-  - 📆 **Weekend**: Friday and Saturday.  
-- ✅ Selected the "Use First Row as Headers" option to ensure proper column naming.  
-- ✅ Standardized column names across datasets and ensured proper data types for date and numerical columns.
+-  Removed duplicates to ensure unique records for properties.  
+-  Handled missing values in critical columns such as `category` and `city` by using business logic.  
+-  Standardized column names for consistency (e.g., renaming columns to lowercase with underscores).  
+-  Corrected inconsistent city names (e.g., "Banglore" was corrected to "Bangalore").  
+-  Added a calculated column to track the count of properties grouped by city.  
+-  Removed the `day_type` column as it incorrectly classified weekends (Sunday and Saturday were marked as weekends instead of Friday and Saturday).  
+-  Re-created the `day_type` column using a calculated formula to align with industry standards.  
+  -  **Weekday**: Monday to Thursday.  
+  -  **Weekend**: Friday and Saturday.  
+-  Selected the "Use First Row as Headers" option to ensure proper column naming.  
+-  Standardized column names across datasets and ensured proper data types for date and numerical columns.
 
 ### 📤 Load
 - The transformed data was imported into Power BI for visualization and creating insights.
@@ -91,21 +91,21 @@ The ETL pipeline ensured the data was clean and analysis-ready.
 ## 📈 Insights and Suggestions
 
 ### 📊 Insights
-- 🔹 Mumbai is the top revenue-generating city, followed by Bangalore, Hyderabad, and Delhi.  
-- 🔹 Luxora Exotica outperforms all property types with a revenue of 320 million, a rating of 3.62, an occupancy percentage of 57%, and a cancellation rate of 24.4%.  
-- 🔹 Luxora Bay has the highest occupancy rate of 66%.  
-- 🔹 Week 24 generated the highest revenue of 139.6 million compared to other weeks.  
-- 🔹 Delhi has the highest occupancy and rating among the four cities, followed by Hyderabad, Mumbai, and Bangalore.  
-- 🔹 Luxora suffered a loss of around 298 million due to cancellations.  
-- 🔹 Elite-type rooms have the most bookings but also a higher cancellation rate.  
-- 🔹 Luxora Bay's high occupancy rate suggests successful guest attraction strategies.  
-- 🔹 The high cancellation rate for Elite-type rooms indicates a need to review booking and cancellation policies to reduce losses.
+-  Mumbai is the top revenue-generating city, followed by Bangalore, Hyderabad, and Delhi.  
+-  Luxora Exotica outperforms all property types with a revenue of 320 million, a rating of 3.62, an occupancy percentage of 57%, and a cancellation rate of 24.4%.  
+-  Luxora Bay has the highest occupancy rate of 66%.  
+-  Week 24 generated the highest revenue of 139.6 million compared to other weeks.  
+-  Delhi has the highest occupancy and rating among the four cities, followed by Hyderabad, Mumbai, and Bangalore.  
+-  Luxora suffered a loss of around 298 million due to cancellations.  
+-  Elite-type rooms have the most bookings but also a higher cancellation rate.  
+-  Luxora Bay's high occupancy rate suggests successful guest attraction strategies.  
+-  The high cancellation rate for Elite-type rooms indicates a need to review booking and cancellation policies to reduce losses.
 
 ### 💡 Suggestions
-- 🔹 **Enhance Occupancy Rates**: Focus on strategies to increase occupancy rates to boost revenue.  
-- 🔹 **Utilize Late Bookings and Extended Stays**: Encourage guests to extend their stays to generate additional revenue.  
-- 🔹 **Maximize Weekend Occupancy**: Aim to maintain maximum occupancy percentages, particularly on weekends.  
-- 🔹 **Platform Focus**: Identify and improve visibility on lower-performing booking platforms.  
-- 🔹 **Improve Average Ratings**: Address issues causing low ratings in certain hotels.  
-- 🔹 **Address Low-Rated Locations**: Improve services in cities with ratings below 3 to increase occupancy.  
-- 🔹 **Implement Dynamic Pricing**: Offer discounts and cashback incentives for direct bookings to increase revenue.  
+-  **Enhance Occupancy Rates**: Focus on strategies to increase occupancy rates to boost revenue.  
+-  **Utilize Late Bookings and Extended Stays**: Encourage guests to extend their stays to generate additional revenue.  
+-  **Maximize Weekend Occupancy**: Aim to maintain maximum occupancy percentages, particularly on weekends.  
+-  **Platform Focus**: Identify and improve visibility on lower-performing booking platforms.  
+-  **Improve Average Ratings**: Address issues causing low ratings in certain hotels.  
+-  **Address Low-Rated Locations**: Improve services in cities with ratings below 3 to increase occupancy.  
+-  **Implement Dynamic Pricing**: Offer discounts and cashback incentives for direct bookings to increase revenue.  
